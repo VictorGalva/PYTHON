@@ -1,3 +1,5 @@
+# Teste: chamando métodos e atributos de uma classe.
+
 class contaBancaria:
 
     def __init__(self, numeroConta, nome, saldo):
@@ -17,5 +19,9 @@ Nome: {self.nome}
 Saldo da conta: R${self.saldo:.2f}''')
 
 contaVictor = contaBancaria(12337, 'Victor Galvão de Farias', 500.99)
+
+contaVictor.printInfoConta()
+
+contaVictor.depositar(350.80)
 
 contaVictor.printInfoConta()
