@@ -1,3 +1,4 @@
+# Jogo da forca utilizando POO.
 from random import choice
 from os import system, name
 bonequinho = [ 
