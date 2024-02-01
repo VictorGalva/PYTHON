@@ -1,3 +1,5 @@
+# O programa a seguir pede ao usuário que informe o raio de um circulo 
+# e exibe a area e o perimetro utiilizando POO.
 class circulo:
 
     pi = 3.14
