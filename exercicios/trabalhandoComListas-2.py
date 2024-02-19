@@ -34,6 +34,6 @@ while True:
             else:
                 break
         print('-'*40)
-        print('{: <10}{: ^10}{: >10}'.format('NOME', '1ª NOTA', '2ª NOTA'))
-        print('{: <10}{: ^10}{: >10}'.format(alunos[indiceAluno][0], alunos[indiceAluno][1][0], alunos[indiceAluno][1][1]))
+        print('{}{: >5}{: >5}'.format('NOME', '1ª NOTA', '2ª NOTA'))
+        print('{}{: >5}{: >5}'.format(alunos[indiceAluno][0], alunos[indiceAluno][1][0], alunos[indiceAluno][1][1]))
         print('-'*40)
