@@ -1,1 +1,1 @@
-print('{:-<40}'.format('Teste'))
+lista = [0, 4, 5, 1, 2]
